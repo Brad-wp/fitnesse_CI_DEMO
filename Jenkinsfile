@@ -3,6 +3,7 @@ pipeline {
     environment {
           def scannerHome = tool 'sonar_scanner'
     }
+    // Test 1
     stages {
         stage('Build') {
             steps {
